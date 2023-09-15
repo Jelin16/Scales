@@ -12,7 +12,7 @@ void draw() {
 
 void scale(int x, int y) {
   int r = 135 + (int)(Math.random()*36);
-  int g = 81 + (int)(Math.random()*36);
+  int g = 0 + (int)(Math.random()*36);
   int b = 96 + (int)(Math.random()*36);
   fill(r,g,b);
   beginShape();
